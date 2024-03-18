@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koe - The Kafe</title>
+  <meta name="title" content="Koe - The Kafe">
+  <meta name="description" content="This is a cafe html template">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+  <script src="app.js" defer></script>
+</head>
+
+<body id="top" style="height: auto;">
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Koe - The Kafe</p>
+  </div>
+
+
+
+
+  <!-- Countdown Timer Section -->
+  <section class="section countdown bg-black-10 text-center" aria-label="countdown" id="workshop">
+    <div class="container">
+
+      <p class="section-subtitle label-2">WELCOME</p>
+
+      <h2 class="headline-1 section-title">PLEASE ENTER YOUR NAME</h2>
+
+
+
+
+      <!-- Signup Form -->
+      <form id="signupForm" class="signup-form" action="/adm" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="n1" required>
+
+        <label for="password">MeetingID:</label>
+        <input type="text" id="name" name="pass"
+          style="height: auto;background-color: white;border-radius: 5px; height: 50px;">
+        <br><button type="submit" class="btn btn-primary">
+          <span class="text text-1">Enter</span>
+          <span class="text text-2" aria-hidden="true">Enter</span>
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="index.html" class="logo">
+            <img src="./assets/images/koe-logo.png" width="160" height="50" loading="lazy" alt="Koe logo">
+          </a>
+
+          <address class="body-4">
+            205, International Finance Centre,<br> VIP Road, opp. Fire Station,<br> Vesu, Surat, <br>Gujarat - 395007
+          </address>
+
+          <a href="mailto:koethekafe@gmail.com" class="body-4 contact-link">koethekafe@gmail.com</a>
+
+          <a href="tel:+91-96246 96846" class="body-4 contact-link">Booking Request : +91 96246 96846</a>
+
+          <p class="body-4">
+            Open : 12:00 pm - 12:30 am
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+          <!--
+        <p class="title-1">Get News & Offers</p>
+
+        <p class="label-1">
+          Subscribe us & Get <span class="span">25% Off.</span>
+        </p>
+
+        <form action="" class="input-wrapper">
+          <div class="icon-wrapper">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+            <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+          </div>
+
+          <button type="submit" class="btn btn-secondary">
+            <span class="text text-1">Subscribe</span>
+
+            <span class="text text-2" aria-hidden="true">Subscribe</span>
+          </button>
+        </form>
+-->
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="..\assets\KoeCafeFood.pdf" target="_blank" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#footer" class="label-2 footer-link hover-underline">Our Chefs</a>
+          </li>
+
+          <li>
+            <a href="tel:+91-96246 96846" class="body-4 contact-link label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#footer" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/koethekafe/" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#footer" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#footer" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="map.html" class="label-2 footer-link hover-underline" target="_blank">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+  <!--custom swiper-->
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
